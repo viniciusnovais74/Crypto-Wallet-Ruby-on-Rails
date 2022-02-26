@@ -9,27 +9,23 @@
 puts 'Loading Coins...'
 
 Coin.create!(
+[{
   description: "Bitcoin",
   acronym: "BTC",
   url_image:"https://logosmarcas.net/wp-content/uploads/2020/08/Bitcoin-Logo.png"
-)
-
-Coin.create!(
+},{
   description: "Ethereum",
   acronym: "ETH",
   url_image:"https://logosmarcas.net/wp-content/uploads/2020/08/Bitcoin-Logo.png"
-)
-
-Coin.create!(
+},{
   description: "DogeCoin",
   acronym: "DOGE",
   url_image:"https://logosmarcas.net/wp-content/uploads/2020/08/Bitcoin-Logo.png"
-)
-
-Coin.create!(
+},{
   description: "Shiba Inu",
   acronym: "SHIB",
   url_image:"https://logosmarcas.net/wp-content/uploads/2020/08/Bitcoin-Logo.png"
+}]
 )
 
 puts "Loading Completed sucessful"

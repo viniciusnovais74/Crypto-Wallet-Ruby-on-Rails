@@ -1,8 +1,7 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Coins</h1>
-
-<table>
+<h1><%= Coin.model_name.human(count: @coins.count)%></h1>
+<table class='table table-hover'>
   <thead>
     <tr>
       <th><%= @coins.human_attribute_name(:description) %></th>
@@ -27,5 +26,4 @@
 </table>
 
 <br>
-<%=@nome%>
-<%= link_to 'New Coin', new_coin_path %>
+<%= link_to t('new.coin'), new_coin_path, class: 'btn btn-primary' %>

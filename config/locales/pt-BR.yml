@@ -21,3 +21,6 @@ pt-BR:
   showing:
     coin: "Mostrando Moeda"
     mining_type: "Mostrando Tipo de Mineração"
+  description: "Descrição"
+  acronym: "Sigla"
+  url_image: "URL da Imagem"

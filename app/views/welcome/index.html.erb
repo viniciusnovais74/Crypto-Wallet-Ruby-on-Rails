@@ -1,6 +1,8 @@
 <h1> <%=nome_aplicacao%> </h1>
 <%a = "Natalia".reverse %>
+<p>Lingua Usada na aplicação: <%= locale%></p>
 <p>aaaa</p>
 <%=render "menu"%>
  <%= link_to "Cadastro de Moedas",coins_path%>
-<h4> <%=data_br(Date.today)%></h4>
+<h4> <%= l(Date.today)%></h4>
+<%= t('hello')%>
